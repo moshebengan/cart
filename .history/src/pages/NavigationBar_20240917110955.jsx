@@ -53,14 +53,14 @@ const NavigationBar = () => {
               </div>
               <div className="flex flex-col gap-5">
                 <Link
-                  to={"/"}
+                  to={"/fake-store"}
                   className="nav-item-hover"
                   onClick={resetNav}
                 >
                   Home
                 </Link>
                 <Link
-                  to={"/shop"}
+                  to={"/fake-store/shop"}
                   className="nav-item-hover"
                   onClick={resetNav}
                 >
