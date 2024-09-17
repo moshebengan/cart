@@ -1,0 +1,4 @@
+const loader = () => {
+  return fetch('')
+
+}
